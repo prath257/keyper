@@ -7,15 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1254CC11F4B488200697D54 /* UpdateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1254CC01F4B488200697D54 /* UpdateAccountViewController.swift */; };
+		D1A0CAB71F38C89D00106C2A /* KeyperObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A0CAB61F38C89D00106C2A /* KeyperObjects.swift */; };
 		D1B7F9031F377018005A1BC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B7F9021F377018005A1BC7 /* AppDelegate.swift */; };
 		D1B7F9051F377018005A1BC7 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B7F9041F377018005A1BC7 /* MasterViewController.swift */; };
 		D1B7F9071F377018005A1BC7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B7F9061F377018005A1BC7 /* DetailViewController.swift */; };
 		D1B7F90A1F377018005A1BC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B7F9081F377018005A1BC7 /* Main.storyboard */; };
 		D1B7F90C1F377018005A1BC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B7F90B1F377018005A1BC7 /* Assets.xcassets */; };
 		D1B7F90F1F377018005A1BC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B7F90D1F377018005A1BC7 /* LaunchScreen.storyboard */; };
+		D1B7F9171F377139005A1BC7 /* AddAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B7F9161F377139005A1BC7 /* AddAccountViewController.swift */; };
+		D1B7F91A1F378132005A1BC7 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B7F9181F378132005A1BC7 /* Realm.framework */; };
+		D1B7F91B1F378132005A1BC7 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D1B7F9181F378132005A1BC7 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D1B7F91C1F378132005A1BC7 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B7F9191F378132005A1BC7 /* RealmSwift.framework */; };
+		D1B7F91D1F378132005A1BC7 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D1B7F9191F378132005A1BC7 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D1B7F91E1F378133005A1BC7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D1B7F91D1F378132005A1BC7 /* RealmSwift.framework in Embed Frameworks */,
+				D1B7F91B1F378132005A1BC7 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D1254CC01F4B488200697D54 /* UpdateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateAccountViewController.swift; sourceTree = "<group>"; };
+		D1A0CAB61F38C89D00106C2A /* KeyperObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyperObjects.swift; sourceTree = "<group>"; };
 		D1B7F8FF1F377018005A1BC7 /* Keyper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keyper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B7F9021F377018005A1BC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1B7F9041F377018005A1BC7 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +48,9 @@
 		D1B7F90B1F377018005A1BC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1B7F90E1F377018005A1BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1B7F9101F377018005A1BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1B7F9161F377139005A1BC7 /* AddAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAccountViewController.swift; sourceTree = "<group>"; };
+		D1B7F9181F378132005A1BC7 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		D1B7F9191F378132005A1BC7 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1B7F91C1F378132005A1BC7 /* RealmSwift.framework in Frameworks */,
+				D1B7F91A1F378132005A1BC7 /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +69,8 @@
 		D1B7F8F61F377018005A1BC7 = {
 			isa = PBXGroup;
 			children = (
+				D1B7F9181F378132005A1BC7 /* Realm.framework */,
+				D1B7F9191F378132005A1BC7 /* RealmSwift.framework */,
 				D1B7F9011F377018005A1BC7 /* Keyper */,
 				D1B7F9001F377018005A1BC7 /* Products */,
 			);
@@ -63,6 +94,9 @@
 				D1B7F90B1F377018005A1BC7 /* Assets.xcassets */,
 				D1B7F90D1F377018005A1BC7 /* LaunchScreen.storyboard */,
 				D1B7F9101F377018005A1BC7 /* Info.plist */,
+				D1B7F9161F377139005A1BC7 /* AddAccountViewController.swift */,
+				D1254CC01F4B488200697D54 /* UpdateAccountViewController.swift */,
+				D1A0CAB61F38C89D00106C2A /* KeyperObjects.swift */,
 			);
 			path = Keyper;
 			sourceTree = "<group>";
@@ -77,6 +111,7 @@
 				D1B7F8FB1F377018005A1BC7 /* Sources */,
 				D1B7F8FC1F377018005A1BC7 /* Frameworks */,
 				D1B7F8FD1F377018005A1BC7 /* Resources */,
+				D1B7F91E1F378133005A1BC7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,7 +176,10 @@
 			files = (
 				D1B7F9071F377018005A1BC7 /* DetailViewController.swift in Sources */,
 				D1B7F9051F377018005A1BC7 /* MasterViewController.swift in Sources */,
+				D1B7F9171F377139005A1BC7 /* AddAccountViewController.swift in Sources */,
+				D1A0CAB71F38C89D00106C2A /* KeyperObjects.swift in Sources */,
 				D1B7F9031F377018005A1BC7 /* AppDelegate.swift in Sources */,
+				D1254CC11F4B488200697D54 /* UpdateAccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +304,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Keyper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = prath268.Keyper;
@@ -278,6 +320,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Keyper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = prath268.Keyper;
@@ -305,6 +351,7 @@
 				D1B7F9151F377018005A1BC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
